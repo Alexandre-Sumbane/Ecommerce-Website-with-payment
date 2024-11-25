@@ -4,9 +4,133 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/styles.css">
-    <title>Document</title>
+
+    <!--Box Icons-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Ecommerce Website With Payment</title>
 </head>
 <body>
-    <h1>Hello, World</h1>
+     <!-- Navbar -->
+     <header>
+        <div class="nav container">
+            <a href="" class="logo">Ecommerce</a>
+            <!-- Cart -->
+            <i class="bx bx-shopping-bag" id="cart-icon" data-quantity="0" ></i>
+
+            <!-- Cart -->
+     <div class="cart">
+        <h2 class="cart-title">Your Cart</h2>
+
+        <!-- Content -->
+        <div class="cart-content">
+            <div class="cart-box">
+                <img src="../img/product1.jpeg" alt="">
+                <div class="detail-box">
+                    <div class="cart-product-title">Product Shirt</div>
+                    <div class="cart-price">$50</div>
+                    <input type="number" name="" id="" value="1" class="cart-quantity">
+                </div>
+
+                <!-- Remove Item-->
+                 <i class="bx bx-trash-alt cart-remove"></i>
+            </div>
+        </div>
+
+        <!-- Total -->
+        <div class="total">
+            <div class="total-title">Total</div>
+            <div class="total-price">$0</div>
+        </div>
+
+        <!-- Buy Button -->
+         <button class="btn-buy">Pay Now</button>
+
+         <!--Close Cart-->
+         <i class="bx bx-x" id="close-cart"></i>   
+     </div>
+    </div>
+    </header>
+    <section class="shop container">
+        <h2 class="section-title">Shop Products</h2>
+
+        <!--Shop Content-->
+        <div class="shop-content">
+
+            <!--Box 1-->
+            <div class="product-box">
+                <img src="../img/product1.jpeg" alt="" class="product img">
+
+                <h2 class="product-title">ADICOLOR SEASONAL</h2>
+                <span class="price">$50</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <!--Box 2-->
+            <div class="product-box">
+                <img src="../img/product2.jpeg" alt="" class="product img">
+
+                <h2 class="product-title">SATURDAY BACKPACK</h2>
+                <span class="price">$70.99</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+             <!--Box 3-->
+             <div class="product-box">
+                <img src="../img/product3.jpeg" alt="" class="product img">
+
+                <h2 class="product-title">ULTIMATE HAT</h2>
+                <span class="price">$24.98</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <!--Box 4-->
+            <div class="product-box">
+                <img src="../img/product4.jpeg" alt="" class="product img">
+
+                <h2 class="product-title">MESSI GOAT TEE</h2>
+                <span class="price">$100</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <!--Box 5-->
+            <div class="product-box">
+                <img src="../img/product5.jpeg" alt="" class="product img">
+
+                <h2 class="product-title">ADICOLOR HOODIE</h2>
+                <span class="price">$80.50</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <!--Box 6-->
+            <div class="product-box">
+                <img src="../img/product6.jpeg" alt="" class="product img">
+
+                <h2 class="product-title">ADIDAS EARBUDS</h2>
+                <span class="price">$200</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <!--Box 7-->
+            <div class="product-box">
+                <img src="../img/product7.jpeg" alt="" class="product img">
+
+                <h2 class="product-title">METAL BOTTLE 1L</h2>
+                <span class="price">$80.04</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+
+            <!--Box 8-->
+            <div class="product-box">
+                <img src="../img/product8.jpeg" alt="" class="product img">
+
+                <h2 class="product-title">ULTRABOOST Shoes</h2>
+                <span class="price">$280</span>
+                <i class="bx bx-shopping-bag add-cart"></i>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/main.js"></script>
 </body>
 </html>
